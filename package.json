@@ -1,0 +1,11 @@
+{
+  "name": "cgsc-website",
+  "version": "1.0.0",
+  "description": "Professional IT consulting website for Guy Labrie - Consultation TI Inc",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": ["consulting", "it", "website"],
+  "license": "UNLICENSED"
+}

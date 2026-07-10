@@ -1,0 +1,9 @@
+{
+  "tag": "Platform Engineering",
+  "title": "ZooKeeper to KRaft Migration",
+  "description": "Planned, tested, and automated the migration from ZooKeeper to KRaft for four Confluent Enterprise and two Confluent Community clusters using Ansible. Standardized Zabbix monitoring across environments. Successfully migrated three Enterprise clusters before the contract concluded prior to full completion.",
+  "details": [
+    "Ansible · Confluent Enterprise · Confluent Community · Zabbix",
+    "2026 · 6 clusters (4 Enterprise · 2 Community) · 3 Enterprise migrated"
+  ]
+}
