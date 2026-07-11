@@ -19,7 +19,7 @@ Edit `index.html` to update:
 - **Company name & tagline** — hero and About sections (`Guy Labrie - Consultation TI Inc`)
 - **Expertise cards** — four skill areas in the Expertise section
 - **Experience timeline** — your career history
-- **Links** — LinkedIn URL (`https://www.linkedin.com/in/guy-labrie-3461463`) and email (`contact@cgsc.ca`) in the Connect section
+- **Links** — LinkedIn URL, email, and CV PDFs (`docs/`) in the Connect section
 
 ### Projects
 

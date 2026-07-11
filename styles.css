@@ -258,6 +258,10 @@ a:hover {
   margin-bottom: var(--space-md);
 }
 
+.about-credentials {
+  font-size: 0.875rem;
+}
+
 .about-text p:last-child {
   margin-bottom: 0;
 }
