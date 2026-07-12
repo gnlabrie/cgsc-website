@@ -1,6 +1,9 @@
 # Guy Labrie - Consultation TI Inc
 
-A clean, professional single-page website for Guy Labrie - Consultation TI Inc, hosted at [cgsc.ca](https://cgsc.ca).
+A clean, professional bilingual single-page website for Guy Labrie - Consultation TI Inc, hosted at [cgsc.ca](https://cgsc.ca).
+
+- **Default language:** English
+- **French:** Canadian French (fr-CA), switched via EN | FR in the navigation
 
 ## Quick Start
 
@@ -10,53 +13,63 @@ npm run dev
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Alternatively, run `npm run dev` — a local server is required for projects to load.
+A local server is required for translations and projects to load.
 
 ## Customize
 
-Edit `index.html` to update:
+### Page content (English & French)
 
-- **Company name & tagline** — hero and About sections (`Guy Labrie - Consultation TI Inc`)
-- **Expertise cards** — four skill areas in the Expertise section
-- **Experience timeline** — your career history
-- **Links** — LinkedIn URL, email, and CV PDFs (`docs/`) in the Connect section
-
-### Projects
-
-Each project lives in its own file under `projects/`:
+Edit the translation files:
 
 | File | Purpose |
 |------|---------|
-| `projects/manifest.json` | Lists project files and display order |
-| `projects/*.json` | One file per project |
+| `i18n/en.json` | English page content |
+| `i18n/fr.json` | French (Canada) page content |
 
-To **update** a project, edit its JSON file. To **add** a project, create a new JSON file and add its filename to `manifest.json`. To **remove** a project, delete its entry from `manifest.json`.
+The `data-i18n` attributes in `index.html` map elements to keys in these files.
 
-Example project file (`projects/kafka-gcp.json`):
+### Projects
+
+Each project lives in its own file under `projects/` with `en` and `fr` sections:
 
 ```json
 {
-  "tag": "Platform Engineering",
-  "title": "Kafka Self-Managed Clusters on GCP",
-  "description": "Short summary of the engagement.",
-  "details": [
-    "GCP · Terraform · Ansible",
-    "2024 · Team of 7"
-  ]
+  "en": {
+    "tag": "Platform Engineering",
+    "title": "Project title",
+    "description": "Short summary.",
+    "details": ["Tech stack", "Year · scope"]
+  },
+  "fr": {
+    "tag": "Ingénierie de plateforme",
+    "title": "Titre du projet",
+    "description": "Résumé court.",
+    "details": ["Technologies", "Année · portée"]
+  }
 }
 ```
 
-To add more social links later, duplicate a `.social-link` anchor in the Connect section.
+Add new project filenames to `projects/manifest.json`.
+
+### CV links
+
+- English: `docs/CGI CV Guy Labrie - English - 202601.pdf` (set in `i18n/en.json`)
+- French: `docs/CGI CV Guy Labrie - Francais - 202601.pdf` (set in `i18n/fr.json`)
+
+The Connect section shows one CV link that switches with the selected language.
 
 ## Structure
 
 | File              | Purpose                              |
 |-------------------|--------------------------------------|
-| `index.html`      | Page content and structure           |
+| `index.html`      | Page structure and i18n hooks        |
+| `i18n/en.json`    | English translations                 |
+| `i18n/fr.json`    | French (Canada) translations         |
+| `i18n.js`         | Language switching and DOM updates   |
 | `styles.css`      | Layout, typography, responsive       |
 | `script.js`       | Mobile menu and footer year          |
 | `projects.js`     | Loads and renders project cards      |
-| `projects/*.json` | Individual project data              |
+| `projects/*.json` | Bilingual project data               |
 
 ## Deploy
 

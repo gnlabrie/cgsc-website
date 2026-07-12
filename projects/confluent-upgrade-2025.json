@@ -1,9 +1,20 @@
 {
-  "tag": "Platform Engineering",
-  "title": "Confluent Cluster Upgrades — Zero Downtime",
-  "description": "Upgraded four Confluent Enterprise and two Confluent Community clusters with zero downtime. Scope included operating system upgrades, Confluent version migrations, modernization of CI/CD pipelines, and Zabbix standardization for monitoring across all clusters.",
-  "details": [
-    "Ansible · Terraform · GitLab CI/CD · Vault · Zabbix",
-    "2025 · 6 clusters (4 Enterprise · 2 Community) · Zero downtime"
-  ]
+  "en": {
+    "tag": "Platform Engineering",
+    "title": "Confluent Cluster Upgrades — Zero Downtime",
+    "description": "Upgraded four Confluent Enterprise and two Confluent Community clusters with zero downtime. Scope included operating system upgrades, Confluent version migrations, modernization of CI/CD pipelines, and Zabbix standardization for monitoring across all clusters.",
+    "details": [
+      "Ansible · Terraform · GitLab CI/CD · Vault · Zabbix",
+      "2025 · 6 clusters (4 Enterprise · 2 Community) · Zero downtime"
+    ]
+  },
+  "fr": {
+    "tag": "Ingénierie de plateforme",
+    "title": "Mises à niveau de clusters Confluent — Sans interruption",
+    "description": "Mise à niveau de quatre clusters Confluent Enterprise et deux clusters Confluent Community sans interruption de service. Mandat incluant la mise à niveau des systèmes d'exploitation, des versions Confluent, la modernisation des pipelines CI/CD et la normalisation Zabbix pour la surveillance de tous les clusters.",
+    "details": [
+      "Ansible · Terraform · GitLab CI/CD · Vault · Zabbix",
+      "2025 · 6 clusters (4 Enterprise · 2 Community) · Sans interruption"
+    ]
+  }
 }

@@ -4,6 +4,10 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+function getLang() {
+  return window.SiteI18n?.lang ?? 'en';
+}
+
 function renderProjectCard(project) {
   const details = project.details
     .map((line) => `<li>${escapeHtml(line)}</li>`)
@@ -23,6 +27,8 @@ async function loadProjects() {
   const grid = document.getElementById('projects-grid');
   if (!grid) return;
 
+  const lang = getLang();
+
   try {
     const manifestResponse = await fetch('projects/manifest.json');
     if (!manifestResponse.ok) throw new Error('Failed to load project list');
@@ -32,15 +38,19 @@ async function loadProjects() {
       projectFiles.map(async (filename) => {
         const response = await fetch(`projects/${filename}`);
         if (!response.ok) throw new Error(`Failed to load ${filename}`);
-        return response.json();
+        const data = await response.json();
+        return data[lang] ?? data.en;
       })
     );
 
     grid.innerHTML = projects.map(renderProjectCard).join('');
   } catch (error) {
     console.error(error);
-    grid.innerHTML = '<p class="projects-error">Unable to load projects. Please try again later.</p>';
+    const message = window.SiteI18n?.t('projects.error')
+      ?? 'Unable to load projects. Please try again later.';
+    grid.innerHTML = `<p class="projects-error">${escapeHtml(message)}</p>`;
   }
 }
 
-loadProjects();
+document.addEventListener('languagechange', loadProjects);
+window.SiteI18nReady?.then(loadProjects);
