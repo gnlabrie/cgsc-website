@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Guy Labrie - Consultation TI Inc",
+    "description": "Guy Labrie - Consultation TI Inc — Senior Enterprise Architect with 35 years of experience. Expertise in Kafka, cloud infrastructure, DevOps, and telecommunications."
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "about": "About",
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "projects": "Projects",
+    "connect": "Connect",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToFr": "Switch to French",
+    "switchToEn": "Switch to English"
+  },
+  "hero": {
+    "eyebrow": "Senior Enterprise Architect · Consultation TI",
+    "title": "Architecture and data streaming solutions that deliver business value",
+    "lead": "Guy Labrie - Consultation TI Inc is a solo IT consulting practice backed by 35 years of experience leading architecture, DevOps, and data streaming initiatives — from Kafka platforms on GCP to enterprise modernization in telecommunications.",
+    "viewProjects": "View Projects",
+    "getInTouch": "Get in Touch"
+  },
+  "about": {
+    "title": "Guy Labrie - Consultation TI Inc",
+    "subtitle": "A one-person IT consulting firm with a focus on results",
+    "paragraph1": "Guy Labrie - Consultation TI Inc is a solo IT consulting firm led by a Senior Enterprise Architect with 35 years of experience in telecommunications and enterprise technology. I specialize in leading architecture design and development teams to deliver comprehensive technical solutions with maximum business value.",
+    "paragraph2": "My background spans Kafka data streaming, cloud infrastructure on GCP and AWS, DevOps, security, and large-scale network operations. Whether modernizing legacy platforms or building self-managed Kafka clusters, I work directly with stakeholders to translate strategy into reliable, scalable systems.",
+    "credentials": "B.Sc. Computer Science, Université de Sherbrooke · AWS & GCP cloud training · Fluent in French and English",
+    "yearsIt": "Years in IT",
+    "yearsArchitecture": "Years in Architecture",
+    "directEngagement": "Consultant — Direct Engagement"
+  },
+  "expertise": {
+    "title": "Expertise",
+    "subtitle": "My core competencies and technical focus areas",
+    "items": [
+      {
+        "title": "Kafka & Data Streaming",
+        "description": "Architecture, design, and SRE for enterprise Kafka platforms. Cloud migration of on-premise streaming services, KRaft transitions, cluster upgrades, and operational excellence with high availability at scale."
+      },
+      {
+        "title": "Cloud & Infrastructure",
+        "description": "GCP and AWS cloud platforms with Terraform and Ansible automation. Infrastructure as code, GitLab CI/CD, Vault, and Zabbix monitoring for repeatable, secure deployments across environments."
+      },
+      {
+        "title": "Architecture & DevOps",
+        "description": "Enterprise architecture, application modernization, microservices, and containerization on OpenShift. Agile and SAFe practices, DevOps culture, and cross-functional team leadership across complex programs."
+      },
+      {
+        "title": "Security & Network Operations",
+        "description": "Security protocols, network architecture, and large-scale infrastructure operations. Experience managing national network operations, multi-site expansion, and business continuity through critical events."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "35 years in telecommunications and enterprise technology",
+    "items": [
+      {
+        "datetime": "2022-01",
+        "period": "2022 — Present",
+        "title": "Senior Enterprise Architect / SRE — Kafka, Bell Canada (via CGI)",
+        "description": "Lead planning, design, and architecture of Bell's data streaming vision and on-premise-to-cloud Kafka migration. Coordinate cross-functional Bell and CGI teams, maintain EDP Kafka infrastructure, drive incident resolution, and mentor team members."
+      },
+      {
+        "datetime": "2006-11",
+        "period": "2006 — 2021",
+        "title": "Senior Enterprise Architect — Bell Canada",
+        "description": "Technology evangelist for Kafka, Agile, OpenShift, security, and DevOps adoption. Led Kafka SRE team architecture and support. Spearheaded application modernization through microservices, virtualization, and containerization across critical systems."
+      },
+      {
+        "datetime": "1992-10",
+        "period": "1992 — 2006",
+        "title": "Senior Technical Advisor — Bell Canada",
+        "description": "Managed the National Network Operation Center and directed corporate network expansion to 100+ sites. Led three major OS migrations from Solaris to Windows NT and Windows XP, ensuring business continuity through the Ice Storm, Y2K, and 9/11 events."
+      },
+      {
+        "datetime": "1988-12",
+        "period": "1988 — 1992",
+        "title": "System Administrator — Bell Canada",
+        "description": "Established one of Bell's first PC networks using Banyan VINES and expanded it from a dozen workstations to 250 workstations and 5 servers — laying the foundation for the organization's network infrastructure growth."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Selected engagements that showcase my approach",
+    "error": "Unable to load projects. Please try again later."
+  },
+  "connect": {
+    "title": "Connect",
+    "subtitle": "Let's discuss how I can help your organization",
+    "text": "Interested in working together? Reach out via LinkedIn or email. I'm always open to conversations about technology strategy, architecture reviews, and consulting engagements.",
+    "linkedin": "LinkedIn",
+    "cvLabel": "CV (English)",
+    "cvAriaLabel": "CV in English"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "cv": {
+    "href": "docs/CGI%20CV%20Guy%20Labrie%20-%20English%20-%20202601.pdf"
+  }
+}

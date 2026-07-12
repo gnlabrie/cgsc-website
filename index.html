@@ -14,7 +14,7 @@
 <body>
   <div id="top" class="scroll-anchor" aria-hidden="true"></div>
   <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
+    <nav class="nav container" data-i18n-aria="nav.ariaLabel" aria-label="Main navigation">
       <a href="#top" class="nav-logo">Guy Labrie - Consultation TI Inc</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span>
@@ -22,11 +22,16 @@
         <span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#expertise">Expertise</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#connect">Connect</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#expertise" data-i18n="nav.expertise">Expertise</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#connect" data-i18n="nav.connect">Connect</a></li>
+        <li class="lang-switcher" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <span class="lang-divider" aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+        </li>
       </ul>
     </nav>
   </header>
@@ -34,16 +39,16 @@
   <main>
     <section class="hero">
       <div class="container hero-content">
-        <p class="hero-eyebrow">Senior Enterprise Architect · Consultation TI</p>
-        <h1>Architecture and data streaming solutions that deliver business value</h1>
-        <p class="hero-lead">
+        <p class="hero-eyebrow" data-i18n="hero.eyebrow">Senior Enterprise Architect · Consultation TI</p>
+        <h1 data-i18n="hero.title">Architecture and data streaming solutions that deliver business value</h1>
+        <p class="hero-lead" data-i18n="hero.lead">
           Guy Labrie - Consultation TI Inc is a solo IT consulting practice backed by
           35 years of experience leading architecture, DevOps, and data streaming initiatives —
           from Kafka platforms on GCP to enterprise modernization in telecommunications.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="#connect" class="btn btn-secondary">Get in Touch</a>
+          <a href="#projects" class="btn btn-primary" data-i18n="hero.viewProjects">View Projects</a>
+          <a href="#connect" class="btn btn-secondary" data-i18n="hero.getInTouch">Get in Touch</a>
         </div>
       </div>
     </section>
@@ -51,25 +56,25 @@
     <section id="about" class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Guy Labrie - Consultation TI Inc</h2>
-          <p class="section-subtitle">A one-person IT consulting firm with a focus on results</p>
+          <h2 data-i18n="about.title">Guy Labrie - Consultation TI Inc</h2>
+          <p class="section-subtitle" data-i18n="about.subtitle">A one-person IT consulting firm with a focus on results</p>
         </div>
         <div class="about-grid">
           <div class="about-text">
-            <p>
+            <p data-i18n="about.paragraph1">
               Guy Labrie - Consultation TI Inc is a solo IT consulting firm led by a
               Senior Enterprise Architect with 35 years of experience in telecommunications
               and enterprise technology. I specialize in leading architecture design and
               development teams to deliver comprehensive technical solutions with maximum
               business value.
             </p>
-            <p>
+            <p data-i18n="about.paragraph2">
               My background spans Kafka data streaming, cloud infrastructure on GCP and AWS,
               DevOps, security, and large-scale network operations. Whether modernizing
               legacy platforms or building self-managed Kafka clusters, I work directly
               with stakeholders to translate strategy into reliable, scalable systems.
             </p>
-            <p class="about-credentials">
+            <p class="about-credentials" data-i18n="about.credentials">
               B.Sc. Computer Science, Université de Sherbrooke · AWS &amp; GCP cloud training
               · Fluent in French and English
             </p>
@@ -77,15 +82,15 @@
           <div class="about-highlights">
             <div class="highlight-card">
               <span class="highlight-number">35+</span>
-              <span class="highlight-label">Years in IT</span>
+              <span class="highlight-label" data-i18n="about.yearsIt">Years in IT</span>
             </div>
             <div class="highlight-card">
               <span class="highlight-number">20+</span>
-              <span class="highlight-label">Years in Architecture</span>
+              <span class="highlight-label" data-i18n="about.yearsArchitecture">Years in Architecture</span>
             </div>
             <div class="highlight-card">
               <span class="highlight-number">1</span>
-              <span class="highlight-label">Consultant — Direct Engagement</span>
+              <span class="highlight-label" data-i18n="about.directEngagement">Consultant — Direct Engagement</span>
             </div>
           </div>
         </div>
@@ -95,45 +100,45 @@
     <section id="expertise" class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <h2>Expertise</h2>
-          <p class="section-subtitle">My core competencies and technical focus areas</p>
+          <h2 data-i18n="expertise.title">Expertise</h2>
+          <p class="section-subtitle" data-i18n="expertise.subtitle">My core competencies and technical focus areas</p>
         </div>
         <div class="expertise-grid">
-          <article class="expertise-card">
+          <article class="expertise-card" data-expertise-index="0">
             <div class="expertise-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
               </svg>
             </div>
-            <h3>Kafka & Data Streaming</h3>
-            <p>Architecture, design, and SRE for enterprise Kafka platforms. Cloud migration of on-premise streaming services, KRaft transitions, cluster upgrades, and operational excellence with high availability at scale.</p>
+            <h3 data-i18n-expertise-title>Kafka & Data Streaming</h3>
+            <p data-i18n-expertise-desc>Architecture, design, and SRE for enterprise Kafka platforms. Cloud migration of on-premise streaming services, KRaft transitions, cluster upgrades, and operational excellence with high availability at scale.</p>
           </article>
-          <article class="expertise-card">
+          <article class="expertise-card" data-expertise-index="1">
             <div class="expertise-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
               </svg>
             </div>
-            <h3>Cloud & Infrastructure</h3>
-            <p>GCP and AWS cloud platforms with Terraform and Ansible automation. Infrastructure as code, GitLab CI/CD, Vault, and Zabbix monitoring for repeatable, secure deployments across environments.</p>
+            <h3 data-i18n-expertise-title>Cloud & Infrastructure</h3>
+            <p data-i18n-expertise-desc>GCP and AWS cloud platforms with Terraform and Ansible automation. Infrastructure as code, GitLab CI/CD, Vault, and Zabbix monitoring for repeatable, secure deployments across environments.</p>
           </article>
-          <article class="expertise-card">
+          <article class="expertise-card" data-expertise-index="2">
             <div class="expertise-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
               </svg>
             </div>
-            <h3>Architecture & DevOps</h3>
-            <p>Enterprise architecture, application modernization, microservices, and containerization on OpenShift. Agile and SAFe practices, DevOps culture, and cross-functional team leadership across complex programs.</p>
+            <h3 data-i18n-expertise-title>Architecture & DevOps</h3>
+            <p data-i18n-expertise-desc>Enterprise architecture, application modernization, microservices, and containerization on OpenShift. Agile and SAFe practices, DevOps culture, and cross-functional team leadership across complex programs.</p>
           </article>
-          <article class="expertise-card">
+          <article class="expertise-card" data-expertise-index="3">
             <div class="expertise-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                 <path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
               </svg>
             </div>
-            <h3>Security & Network Operations</h3>
-            <p>Security protocols, network architecture, and large-scale infrastructure operations. Experience managing national network operations, multi-site expansion, and business continuity through critical events.</p>
+            <h3 data-i18n-expertise-title>Security & Network Operations</h3>
+            <p data-i18n-expertise-desc>Security protocols, network architecture, and large-scale infrastructure operations. Experience managing national network operations, multi-site expansion, and business continuity through critical events.</p>
           </article>
         </div>
       </div>
@@ -142,40 +147,40 @@
     <section id="experience" class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Experience</h2>
-          <p class="section-subtitle">35 years in telecommunications and enterprise technology</p>
+          <h2 data-i18n="experience.title">Experience</h2>
+          <p class="section-subtitle" data-i18n="experience.subtitle">35 years in telecommunications and enterprise technology</p>
         </div>
         <div class="timeline">
-          <article class="timeline-item">
+          <article class="timeline-item" data-experience-index="0">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <time datetime="2022-01">2022 — Present</time>
-              <h3>Senior Enterprise Architect / SRE — Kafka, Bell Canada (via CGI)</h3>
-              <p>Lead planning, design, and architecture of Bell's data streaming vision and on-premise-to-cloud Kafka migration. Coordinate cross-functional Bell and CGI teams, maintain EDP Kafka infrastructure, drive incident resolution, and mentor team members.</p>
+              <time datetime="2022-01" data-i18n-experience-period>2022 — Present</time>
+              <h3 data-i18n-experience-title>Senior Enterprise Architect / SRE — Kafka, Bell Canada (via CGI)</h3>
+              <p data-i18n-experience-desc>Lead planning, design, and architecture of Bell's data streaming vision and on-premise-to-cloud Kafka migration. Coordinate cross-functional Bell and CGI teams, maintain EDP Kafka infrastructure, drive incident resolution, and mentor team members.</p>
             </div>
           </article>
-          <article class="timeline-item">
+          <article class="timeline-item" data-experience-index="1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <time datetime="2006-11">2006 — 2021</time>
-              <h3>Senior Enterprise Architect — Bell Canada</h3>
-              <p>Technology evangelist for Kafka, Agile, OpenShift, security, and DevOps adoption. Led Kafka SRE team architecture and support. Spearheaded application modernization through microservices, virtualization, and containerization across critical systems.</p>
+              <time datetime="2006-11" data-i18n-experience-period>2006 — 2021</time>
+              <h3 data-i18n-experience-title>Senior Enterprise Architect — Bell Canada</h3>
+              <p data-i18n-experience-desc>Technology evangelist for Kafka, Agile, OpenShift, security, and DevOps adoption. Led Kafka SRE team architecture and support. Spearheaded application modernization through microservices, virtualization, and containerization across critical systems.</p>
             </div>
           </article>
-          <article class="timeline-item">
+          <article class="timeline-item" data-experience-index="2">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <time datetime="1992-10">1992 — 2006</time>
-              <h3>Senior Technical Advisor — Bell Canada</h3>
-              <p>Managed the National Network Operation Center and directed corporate network expansion to 100+ sites. Led three major OS migrations from Solaris to Windows NT and Windows XP, ensuring business continuity through the Ice Storm, Y2K, and 9/11 events.</p>
+              <time datetime="1992-10" data-i18n-experience-period>1992 — 2006</time>
+              <h3 data-i18n-experience-title>Senior Technical Advisor — Bell Canada</h3>
+              <p data-i18n-experience-desc>Managed the National Network Operation Center and directed corporate network expansion to 100+ sites. Led three major OS migrations from Solaris to Windows NT and Windows XP, ensuring business continuity through the Ice Storm, Y2K, and 9/11 events.</p>
             </div>
           </article>
-          <article class="timeline-item">
+          <article class="timeline-item" data-experience-index="3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <time datetime="1988-12">1988 — 1992</time>
-              <h3>System Administrator — Bell Canada</h3>
-              <p>Established one of Bell's first PC networks using Banyan VINES and expanded it from a dozen workstations to 250 workstations and 5 servers — laying the foundation for the organization's network infrastructure growth.</p>
+              <time datetime="1988-12" data-i18n-experience-period>1988 — 1992</time>
+              <h3 data-i18n-experience-title>System Administrator — Bell Canada</h3>
+              <p data-i18n-experience-desc>Established one of Bell's first PC networks using Banyan VINES and expanded it from a dozen workstations to 250 workstations and 5 servers — laying the foundation for the organization's network infrastructure growth.</p>
             </div>
           </article>
         </div>
@@ -185,8 +190,8 @@
     <section id="projects" class="section section-alt">
       <div class="container">
         <div class="section-header">
-          <h2>Featured Projects</h2>
-          <p class="section-subtitle">Selected engagements that showcase my approach</p>
+          <h2 data-i18n="projects.title">Featured Projects</h2>
+          <p class="section-subtitle" data-i18n="projects.subtitle">Selected engagements that showcase my approach</p>
         </div>
         <div class="projects-grid" id="projects-grid"></div>
       </div>
@@ -195,11 +200,11 @@
     <section id="connect" class="section connect-section">
       <div class="container">
         <div class="section-header">
-          <h2>Connect</h2>
-          <p class="section-subtitle">Let's discuss how I can help your organization</p>
+          <h2 data-i18n="connect.title">Connect</h2>
+          <p class="section-subtitle" data-i18n="connect.subtitle">Let's discuss how I can help your organization</p>
         </div>
         <div class="connect-content">
-          <p>
+          <p data-i18n="connect.text">
             Interested in working together? Reach out via LinkedIn or email.
             I'm always open to conversations about technology strategy,
             architecture reviews, and consulting engagements.
@@ -209,7 +214,7 @@
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.063 2.063 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
-              LinkedIn
+              <span data-i18n="connect.linkedin">LinkedIn</span>
             </a>
             <a href="mailto:contact@cgsc.ca" class="social-link" aria-label="Email">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
@@ -217,17 +222,11 @@
               </svg>
               contact@cgsc.ca
             </a>
-            <a href="docs/CGI%20CV%20Guy%20Labrie%20-%20English%20-%20202601.pdf" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="CV in English">
+            <a href="docs/CGI%20CV%20Guy%20Labrie%20-%20English%20-%20202601.pdf" class="social-link" id="cv-link" data-i18n-href="cv.href" data-i18n-aria="connect.cvAriaLabel" target="_blank" rel="noopener noreferrer" aria-label="CV in English">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
                 <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
               </svg>
-              CV (English)
-            </a>
-            <a href="docs/CGI%20CV%20Guy%20Labrie%20-%20Francais%20-%20202601.pdf" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="CV en français">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-              </svg>
-              CV (Français)
+              <span data-i18n="connect.cvLabel">CV (English)</span>
             </a>
           </div>
         </div>
@@ -237,11 +236,12 @@
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p>&copy; <span id="year"></span> Guy Labrie - Consultation TI Inc. All rights reserved.</p>
-      <a href="#top" class="back-to-top">Back to top</a>
+      <p>&copy; <span id="year"></span> Guy Labrie - Consultation TI Inc. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <a href="#top" class="back-to-top" data-i18n="footer.backToTop">Back to top</a>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="projects.js"></script>
   <script src="script.js"></script>
 </body>

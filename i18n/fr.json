@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Guy Labrie - Consultation TI Inc",
+    "description": "Guy Labrie - Consultation TI Inc — Architecte d'entreprise principal avec 35 ans d'expérience. Expertise en Kafka, infrastructure infonuagique, DevOps et télécommunications."
+  },
+  "nav": {
+    "ariaLabel": "Navigation principale",
+    "about": "À propos",
+    "expertise": "Expertise",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "connect": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "switchToFr": "Passer au français",
+    "switchToEn": "Passer à l'anglais"
+  },
+  "hero": {
+    "eyebrow": "Architecte d'entreprise principal · Consultation TI",
+    "title": "Des solutions d'architecture et de diffusion de données qui créent de la valeur",
+    "lead": "Guy Labrie - Consultation TI Inc est une pratique de consultation TI en solo appuyée sur 35 ans d'expérience en architecture, DevOps et diffusion de données — des plateformes Kafka sur GCP à la modernisation d'entreprise en télécommunications.",
+    "viewProjects": "Voir les projets",
+    "getInTouch": "Me contacter"
+  },
+  "about": {
+    "title": "Guy Labrie - Consultation TI Inc",
+    "subtitle": "Une firme de consultation TI unipersonnelle axée sur les résultats",
+    "paragraph1": "Guy Labrie - Consultation TI Inc est une firme de consultation TI en solo dirigée par un architecte d'entreprise principal avec 35 ans d'expérience en télécommunications et en technologie d'entreprise. Je me spécialise dans la direction de la conception d'architecture et d'équipes de développement afin de livrer des solutions techniques complètes à forte valeur d'affaires.",
+    "paragraph2": "Mon parcours couvre la diffusion de données Kafka, l'infrastructure infonuagique sur GCP et AWS, le DevOps, la sécurité et l'exploitation de réseaux à grande échelle. Que ce soit pour moderniser des plateformes existantes ou bâtir des clusters Kafka autogérés, je travaille directement avec les parties prenantes pour traduire la stratégie en systèmes fiables et évolutifs.",
+    "credentials": "Bacc. en informatique, Université de Sherbrooke · Formation infonuagique AWS et GCP · Bilingue français et anglais",
+    "yearsIt": "Années en TI",
+    "yearsArchitecture": "Années en architecture",
+    "directEngagement": "Consultant — Relation directe"
+  },
+  "expertise": {
+    "title": "Expertise",
+    "subtitle": "Mes compétences clés et domaines de spécialisation technique",
+    "items": [
+      {
+        "title": "Kafka et diffusion de données",
+        "description": "Architecture, conception et SRE pour les plateformes Kafka d'entreprise. Migration infonuagique des services de diffusion sur site, transitions KRaft, mises à niveau de clusters et excellence opérationnelle à haute disponibilité."
+      },
+      {
+        "title": "Infonuagique et infrastructure",
+        "description": "Plateformes infonuagiques GCP et AWS avec automatisation Terraform et Ansible. Infrastructure as code, CI/CD GitLab, Vault et surveillance Zabbix pour des déploiements reproductibles et sécurisés."
+      },
+      {
+        "title": "Architecture et DevOps",
+        "description": "Architecture d'entreprise, modernisation d'applications, microservices et conteneurisation sur OpenShift. Pratiques Agile et SAFe, culture DevOps et leadership d'équipes interfonctionnelles sur des programmes complexes."
+      },
+      {
+        "title": "Sécurité et exploitation réseau",
+        "description": "Protocoles de sécurité, architecture réseau et exploitation d'infrastructure à grande échelle. Expérience en gestion d'un centre d'exploitation réseau national, expansion multisite et continuité des affaires lors d'événements critiques."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Expérience",
+    "subtitle": "35 ans en télécommunications et en technologie d'entreprise",
+    "items": [
+      {
+        "datetime": "2022-01",
+        "period": "2022 — Aujourd'hui",
+        "title": "Architecte d'entreprise principal / SRE — Kafka, Bell Canada (via CGI)",
+        "description": "Diriger la planification, la conception et l'architecture de la vision de diffusion de données de Bell et la migration Kafka de sur site vers l'infonuagique. Coordonner les équipes interfonctionnelles de Bell et de CGI, maintenir l'infrastructure Kafka EDP, gérer la résolution d'incidents et encadrer les membres de l'équipe."
+      },
+      {
+        "datetime": "2006-11",
+        "period": "2006 — 2021",
+        "title": "Architecte d'entreprise principal — Bell Canada",
+        "description": "Évangéliste technologique pour l'adoption de Kafka, Agile, OpenShift, la sécurité et le DevOps. Diriger l'architecture et le soutien de l'équipe SRE Kafka. Piloter la modernisation d'applications par les microservices, la virtualisation et la conteneurisation de systèmes critiques."
+      },
+      {
+        "datetime": "1992-10",
+        "period": "1992 — 2006",
+        "title": "Conseiller technique principal — Bell Canada",
+        "description": "Gérer le Centre national d'exploitation du réseau et diriger l'expansion du réseau corporatif à plus de 100 sites. Mener trois migrations majeures de SE de Solaris vers Windows NT et Windows XP, en assurant la continuité des affaires lors de la tempête de verglas, du passage à l'an 2000 et du 11 septembre."
+      },
+      {
+        "datetime": "1988-12",
+        "period": "1988 — 1992",
+        "title": "Administrateur de systèmes — Bell Canada",
+        "description": "Établir l'un des premiers réseaux de micro-ordinateurs de Bell avec Banyan VINES et l'étendre d'une douzaine de postes de travail à 250 postes et 5 serveurs — posant les bases de la croissance de l'infrastructure réseau de l'organisation."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets en vedette",
+    "subtitle": "Mandats sélectionnés qui illustrent mon approche",
+    "error": "Impossible de charger les projets. Veuillez réessayer plus tard."
+  },
+  "connect": {
+    "title": "Contact",
+    "subtitle": "Discutons de la façon dont je peux aider votre organisation",
+    "text": "Intéressé à collaborer? Communiquez avec moi par LinkedIn ou courriel. Je suis toujours ouvert aux discussions sur la stratégie technologique, les revues d'architecture et les mandats de consultation.",
+    "linkedin": "LinkedIn",
+    "cvLabel": "CV (Français)",
+    "cvAriaLabel": "CV en français"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "backToTop": "Retour en haut"
+  },
+  "cv": {
+    "href": "docs/CGI%20CV%20Guy%20Labrie%20-%20Francais%20-%20202601.pdf"
+  }
+}

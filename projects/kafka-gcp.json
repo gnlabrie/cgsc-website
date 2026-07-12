@@ -1,9 +1,20 @@
 {
-  "tag": "Platform Engineering",
-  "title": "Kafka Self-Managed Clusters on GCP",
-  "description": "Led the design and delivery of five self-managed Confluent Community Kafka clusters on Google Cloud Platform — one development, two staging, and two production environments. Managed a team of seven developers from CGI to build repeatable, automated infrastructure across all tiers.",
-  "details": [
-    "GCP · Terraform · Ansible · GitLab · GitOps",
-    "2024 · Team of 7 · 5 clusters (1 DEV · 2 STG · 2 PROD)"
-  ]
+  "en": {
+    "tag": "Platform Engineering",
+    "title": "Kafka Self-Managed Clusters on GCP",
+    "description": "Led the design and delivery of five self-managed Confluent Community Kafka clusters on Google Cloud Platform — one development, two staging, and two production environments. Managed a team of seven developers from CGI to build repeatable, automated infrastructure across all tiers.",
+    "details": [
+      "GCP · Terraform · Ansible · GitLab · GitOps",
+      "2024 · Team of 7 · 5 clusters (1 DEV · 2 STG · 2 PROD)"
+    ]
+  },
+  "fr": {
+    "tag": "Ingénierie de plateforme",
+    "title": "Clusters Kafka autogérés sur GCP",
+    "description": "Direction de la conception et de la livraison de cinq clusters Kafka Confluent Community autogérés sur Google Cloud Platform — un environnement de développement, deux de préproduction et deux de production. Gestion d'une équipe de sept développeurs de CGI pour bâtir une infrastructure reproductible et automatisée à tous les niveaux.",
+    "details": [
+      "GCP · Terraform · Ansible · GitLab · GitOps",
+      "2024 · Équipe de 7 · 5 clusters (1 DEV · 2 STG · 2 PROD)"
+    ]
+  }
 }
