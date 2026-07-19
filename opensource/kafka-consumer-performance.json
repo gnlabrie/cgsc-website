@@ -1,0 +1,15 @@
+{
+  "url": "https://github.com/gnlabrie/kafka-consumer-performance",
+  "en": {
+    "tag": "Open Source",
+    "title": "kafka-consumer-performance",
+    "description": "Java 21 Spring Boot CLI tool for controlled Kafka consumer testing — multi-worker consumption, processing delay simulation, commit strategies, rebalance tracking, and detailed CSV output.",
+    "linkLabel": "View on GitHub"
+  },
+  "fr": {
+    "tag": "Code ouvert",
+    "title": "kafka-consumer-performance",
+    "description": "Outil en ligne de commande Java 21 Spring Boot pour des tests consommateur Kafka contrôlés — consommation multi-travailleurs, simulation de délais, stratégies de commit, suivi des rééquilibrages et export CSV détaillé.",
+    "linkLabel": "Voir sur GitHub"
+  }
+}

@@ -69,7 +69,9 @@ The Connect section shows one CV link that switches with the selected language.
 | `styles.css`      | Layout, typography, responsive       |
 | `script.js`       | Mobile menu and footer year          |
 | `projects.js`     | Loads and renders project cards      |
-| `projects/*.json` | Bilingual project data               |
+| `projects/*.json` | Bilingual consulting project data    |
+| `opensource.js`   | Loads and renders open-source cards  |
+| `opensource/*.json` | Bilingual GitHub project data      |
 
 ## Deploy
 

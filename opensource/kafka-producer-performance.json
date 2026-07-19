@@ -1,0 +1,15 @@
+{
+  "url": "https://github.com/gnlabrie/kafka-producer-performance",
+  "en": {
+    "tag": "Open Source",
+    "title": "kafka-producer-performance",
+    "description": "Java 21 Spring Boot CLI tool for controlled Kafka producer workloads. Sends records asynchronously, captures per-message timing, and writes CSV statistics with a run summary.",
+    "linkLabel": "View on GitHub"
+  },
+  "fr": {
+    "tag": "Code ouvert",
+    "title": "kafka-producer-performance",
+    "description": "Outil en ligne de commande Java 21 Spring Boot pour des charges de travail producteur Kafka contrôlées. Envoi asynchrone de messages, mesure du temps par message et export CSV avec résumé d'exécution.",
+    "linkLabel": "Voir sur GitHub"
+  }
+}

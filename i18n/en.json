@@ -9,6 +9,7 @@
     "expertise": "Expertise",
     "experience": "Experience",
     "projects": "Projects",
+    "opensource": "Open Source",
     "connect": "Connect",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -88,6 +89,11 @@
     "title": "Featured Projects",
     "subtitle": "Selected engagements that showcase my approach",
     "error": "Unable to load projects. Please try again later."
+  },
+  "opensource": {
+    "title": "Open Source",
+    "subtitle": "Public Kafka tools and projects on GitHub",
+    "error": "Unable to load open-source projects. Please try again later."
   },
   "connect": {
     "title": "Connect",

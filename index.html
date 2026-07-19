@@ -26,6 +26,7 @@
         <li><a href="#expertise" data-i18n="nav.expertise">Expertise</a></li>
         <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
         <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#opensource" data-i18n="nav.opensource">Open Source</a></li>
         <li><a href="#connect" data-i18n="nav.connect">Connect</a></li>
         <li class="lang-switcher" aria-label="Language">
           <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
@@ -197,7 +198,17 @@
       </div>
     </section>
 
-    <section id="connect" class="section connect-section">
+    <section id="opensource" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="opensource.title">Open Source</h2>
+          <p class="section-subtitle" data-i18n="opensource.subtitle">Public Kafka tools and projects on GitHub</p>
+        </div>
+        <div class="projects-grid" id="opensource-grid"></div>
+      </div>
+    </section>
+
+    <section id="connect" class="section connect-section section-alt">
       <div class="container">
         <div class="section-header">
           <h2 data-i18n="connect.title">Connect</h2>
@@ -243,6 +254,7 @@
 
   <script src="i18n.js"></script>
   <script src="projects.js"></script>
+  <script src="opensource.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

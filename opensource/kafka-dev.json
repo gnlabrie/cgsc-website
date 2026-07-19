@@ -1,0 +1,15 @@
+{
+  "url": "https://github.com/gnlabrie/kafka-dev",
+  "en": {
+    "tag": "Open Source",
+    "title": "kafka-dev",
+    "description": "Single-node Apache Kafka (KRaft) for local development with Docker Compose. Includes TLS certificate generation scripts for Windows, Linux, and macOS — for development use only.",
+    "linkLabel": "View on GitHub"
+  },
+  "fr": {
+    "tag": "Code ouvert",
+    "title": "kafka-dev",
+    "description": "Cluster Apache Kafka (KRaft) mono-nœud pour le développement local avec Docker Compose. Inclut des scripts de génération de certificats TLS pour Windows, Linux et macOS — usage développement seulement.",
+    "linkLabel": "Voir sur GitHub"
+  }
+}

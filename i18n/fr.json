@@ -9,6 +9,7 @@
     "expertise": "Expertise",
     "experience": "Expérience",
     "projects": "Projets",
+    "opensource": "Code ouvert",
     "connect": "Contact",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
@@ -88,6 +89,11 @@
     "title": "Projets en vedette",
     "subtitle": "Mandats sélectionnés qui illustrent mon approche",
     "error": "Impossible de charger les projets. Veuillez réessayer plus tard."
+  },
+  "opensource": {
+    "title": "Code ouvert",
+    "subtitle": "Outils et projets Kafka publics sur GitHub",
+    "error": "Impossible de charger les projets ouverts. Veuillez réessayer plus tard."
   },
   "connect": {
     "title": "Contact",
